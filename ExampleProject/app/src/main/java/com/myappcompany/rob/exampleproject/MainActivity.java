@@ -5,12 +5,8 @@ import android.net.Uri;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-//hey
 import android.util.Log;
-
-
 import android.view.View;
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
