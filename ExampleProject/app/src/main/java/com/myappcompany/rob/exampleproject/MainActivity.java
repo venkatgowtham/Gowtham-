@@ -329,6 +329,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // timmer
+         final  Handler H=new Handler();
+
+        Runnable R=new Runnable() {
+            @Override
+            public void run() {
+
+                Log.i(" info"," Time has passed");
+
+
+                H.postDelayed(this,1000);
+
+            }
+        };
+
+        H.post(R);
+// 
 
       //  MainActivity m1=new MainActivity();
 
